@@ -137,7 +137,7 @@ onMounted(async () => {
 });
 
 const loadMore = async () => {
-  await userListStore.fetchData(true);
+  await userListStore.fetchData(true, true);
 }
 
 const getFreshList = async (withSeed?: boolean) => {
